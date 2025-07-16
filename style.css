@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(171, 161, 230);
+}
+
+#containter{
+    font-family: monospace;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#passwordLength{
+    background-color: rgb(15, 221, 135);
+    border: none;
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#passwordPropertiesText{
+    font-weight: bold;
+}
+
+#passwordProperties{
+    margin: auto;
+    font-family: monospace;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: bisque;
+    box-shadow:2px 2px 2px rgb(138, 129, 129);
+}
+
+#displayPassword{
+    margin: auto;
+    font-family: monospace;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: bisque;
+    box-shadow:2px 2px 2px rgb(138, 129, 129);
+}
+
+#generatePasswordButton{
+    font-size: 1rem;
+    font-family: monospace;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(15, 221, 135);
+    cursor: pointer;
+}
+
+#generatePasswordButton:hover{
+    background-color: rgb(117, 219, 178);
+}
+
+#generatePasswordButton:active{
+    background-color: rgb(178, 187, 184);
+}
+
+/* from stack overflow */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+
